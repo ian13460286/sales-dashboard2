@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>銷售數據即時分析儀表板</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; background: #f4f6f9; text-align: center; }
+        .container { max-width: 1000px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .metrics { display: flex; justify-content: space-around; margin: 20px 0; }
+        .card { background: #eef2f5; padding: 15px; border-radius: 8px; width: 20%; }
+        .card h3 { margin: 0; font-size: 14px; color: #666; }
+        .card p { margin: 5px 0 0; font-size: 20px; font-weight: bold; color: #007bff; }
+        img { max-width: 100%; height: auto; border-radius: 8px; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>銷售數據分析儀表板 (MySQL 同步版)</h1>
+        <div class="metrics">
+            <div class="card"><h3>總筆數</h3><p>300 筆</p></div>
+            <div class="card"><h3>總售出數量</h3><p>4,524 件</p></div>
+            <div class="card"><h3>總退貨數量</h3><p>63 件</p></div>
+            <div class="card"><h3>總淨銷售額</h3><p>NT$ 3,970,100</p></div>
+        </div>
+        <img src="chart.png?v=1791184523.927083" alt="Sales Chart">
+    </div>
+</body>
+</html>
